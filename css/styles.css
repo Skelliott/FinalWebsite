@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*============================
+
+Homepage
+
+*=============================*/
+main {
+    background: white;
+    max-width: 1000px;
+    margin: 63px auto;
+    padding: 28px;
+    border: 7px solid black;
+    border-radius: 15px;
+    position: relative;
+}
+
+header {
+    background: #E70808;
+    padding: 2px 0;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+}
+header nav li {
+    display: inline-block;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    padding:10px 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display SC', serif;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+h2 {
+  color: black;
+  clear: both;
+  font-size: 43px;
+  font-family: 'Montserrat';
+  position: relative;
+  left: 26%
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: Black;
+    position: relative;
+    font-weight: bold;
+    font-size: 114%;
+    margin: 15px;
+}
+
+.pseudo p::first-letter{
+    font-size: 30px;
+}
+
+.highlight {
+    font-size: 38px;
+    color: #4c134c;
+}
+
+.Welcome {
+    width: 45%;
+    display: inline-block;
+}
+
+.homepagepic {
+  position: absolute;
+  right: 9%;
+  width: 400px;
+  transition: 5s;
+}
+
+.homepagepic img:hover {
+  transform: scale(1.5);
+  transition: 5s;
+}
+
+h4 {
+    position: relative;
+    padding: 3%;
+    left: -6%;
+    font-size: 21px;
+    color: white;
+    background: black;
+    width: 1000px;
+    margin: 2%;
+}
+
+.label_imput_wrap {
+  display: block;
+}
+
+/*============================
+
+About Page
+
+*=============================*/
+
+.aboutpage-pic {
+    float: right;
+}
+
+h5 {
+    bottom: 33px;
+    font-size: 56px;
+    position: relative;
+    left: 14%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+/*============================
+
+My Work
+
+*=============================*/
+
+h6 {
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+
+}
+
+.reel {
+    position: relative;
+    left: 14%;
+    padding: 84px;
+}
+
+section {
+    position: relative;
+    top: 38px;
+    left: 11px;
+}
+
+/*============================
+
+Contact Form
+
+*=============================*/
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: Black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form#test_form {
+    background: #E70808;
+    padding: 13px;
+    max-width: 532px;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+/*============================
+
+footer
+
+*=============================*/
+footer  {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  top: 24px;
+}

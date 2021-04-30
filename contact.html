@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-196000863-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-196000863-1');
+    </script>
+
+
+    <meta charset="utf-8">
+
+    <title>Samarya Elliott</title>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
+
+  <!-- Link to Style.css file-->
+  <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  </head>
+     <body class="contact">
+    <header>
+      <div class="container">
+
+      <h1><a href="index.html">Samarya Elliott</a></h1>
+
+        <nav>
+          <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="mywork.html">My Work</a></li>
+           <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+   <main>
+
+    <h3>Contact</h3>
+   <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="returnvalidateForm(this)">
+   <div class="first name">
+     <label for="firstname" class="label_imput_wrap">First Name:
+     </label>
+     <input type="text" name="firstname" id="firstname" placeholder="ex. John" />
+   </div>
+
+   <div class="last name">
+     <label for="lastname" class="label_imput_wrap">Last Name:
+     </label>
+     <input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+   </div>
+
+   <div class="email">
+     <label for="email" class="label_imput_wrap">Email:
+     </label>
+     <input type="email" name="email" id="email" placeholder="ex. jsmith@example.com" />
+   </div>
+   <div class="company">
+     <label for="company" class="label_imput_wrap">Company:
+     </label>
+     <input type="text" name="company" id="company" placeholder="Company" />
+   </div>
+
+   <div class="commemts">
+     <label for="comments" class="label_imput_wrap">Comments: </label>
+     <textarea name="Comments" id="comments" cols="55" rows="8" placeholder="Comments go here!"></textarea>
+   </div>
+
+   <div class="submit">
+     <input type="submit" value="Send Message!">
+   </div>
+
+    </form>
+     <footer>
+       <p>Website by Samarya Elliott</p>
+     </footer>
+    </main>
+   </body>
+  </html>
